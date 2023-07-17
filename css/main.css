@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* COMMON */
 body {
   font-family: 'Nanum Gothic', sans-serif;
@@ -320,6 +321,9 @@ header .badges .badge {
   box-shadow: 4px 4px 10px rgba(0,0,0,.15); /* x축 y축 블러 색 */
   cursor: pointer;
 }
+=======
+/* main.css */
+>>>>>>> b4d6b06dbdbacc98e93cf5e678c55554595b385b
 
 
 /* VISUAL */
@@ -952,6 +956,7 @@ header .badges .badge {
 
 /* FOOTER */
 
+<<<<<<< HEAD
 footer {
   background-color: #272727;
   border-top: 1px solid #333;
@@ -1041,6 +1046,8 @@ footer .logo {
   margin: 30px auto 0;
 }
 
+=======
+>>>>>>> b4d6b06dbdbacc98e93cf5e678c55554595b385b
 #to-top {
   width: 47px;
   height: 47px;
