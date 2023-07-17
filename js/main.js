@@ -1,24 +1,8 @@
-const searchEl = document.querySelector(".search");
-const searchInputEl = searchEl.querySelector("input");
-
-searchEl.addEventListener("click", function () {
-  searchInputEl.focus();
-});
-
-searchInputEl.addEventListener("focus", function () {
-  searchEl.classList.add("focused");
-  searchInputEl.setAttribute("placeholder", "통합검색");
-});
-
-searchInputEl.addEventListener("blur", function () {
-  searchEl.classList.remove("focused");
-  searchInputEl.setAttribute("placeholder", "");
-});
+// main.js
 
 // 스크롤 될 때 실행되는 함수의 개수를 throttle 기능을 이용하여 일정시간에 한 번만 실행되도록 제한을 걺
 // _.throttle(함수, 시간)
 // gsap? 배지가 사라지고 나타나는 걸 자연스럽게 보이기 위해 애니메이션 라이브러리 사용
-
 const badgeEl = document.querySelector("header .badges");
 const toTopEl = document.querySelector("#to-top");
 
@@ -164,7 +148,3 @@ spyEls.forEach(function (spyEl) {
     .setClassToggle(spyEl, "show")
     .addTo(new ScrollMagic.Controller());
 });
-
-// 올해가 몇 년도인지 계산하는 함수
-const thisYear = document.querySelector(".this-year");
-thisYear.textContent = new Date().getFullYear(); // 2023
