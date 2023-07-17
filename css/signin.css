@@ -62,10 +62,8 @@
 }
 
 .signin__card form p {
-  font-size: 12px;
+  font-size: 11px;
   color: #006633;
-  text-align: center;
-  font-weight: 700;
 }
 
 .signin__card .actions {
